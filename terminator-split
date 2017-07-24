@@ -24,7 +24,7 @@ class TerminatorSplit(object):
     DEFAULT = {
         'config': os.path.expanduser('~/.config/terminator/config'),
         'command': "ssh '{}'",
-        'terminator': '/usr/bin/terminator'
+        'terminator': '/usr/local/bin/terminator'
     }
 
     def __init__(self):
